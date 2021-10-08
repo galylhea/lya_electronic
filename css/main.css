@@ -4440,12 +4440,11 @@ header [class*="col-"],
 }
 
 .section_header.with_icon:before {
-	content: "\f1b8";
-	font-family: FontAwesome;
-	font-size: 28px;
-	color: #9cc026;
-	display: block;
-	margin-bottom: 10px;
+	content: url('../images/blue_earth.png');
+    position: absolute;
+    margin-left: -8px;
+    top: -70px;
+    left: 48%;
 }
 
 h3 + .section_header,
@@ -6384,7 +6383,8 @@ a.logo.vertical_logo img {
 }
 
 .page_header {
-	transition: background 0.2s ease-in-out 0s, margin 0.6s ease-in-out 0s;
+	transition: background 0.2s ease-in-out 0s,
+ margin 0.6s ease-in-out 0s;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -6412,7 +6412,8 @@ a.logo.vertical_logo img {
 .page_header.section_padding_20 [class*="container"] {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	transition: padding-top 0.2s linear 0s, padding-bottom 0.2s linear 0s;
+	transition: padding-top 0.2s linear 0s,
+ padding-bottom 0.2s linear 0s;
 }
 
 .page_header.section_padding_20.affix [class*="container"] {
@@ -6558,7 +6559,7 @@ a.logo.vertical_logo img {
 }
 
 .header_left_logo .logo img {
-	max-width: 60px;
+	max-width: 133px;
 }
 
 .header_mainmenu {
